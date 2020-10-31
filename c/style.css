@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -22,11 +22,6 @@ img {
   height: auto;
 }
 
-video {
-  width: 100%;
-  heigth: auto;
-}
-
 div.loading {
   position: fixed;
   top: 0;
@@ -35,14 +30,11 @@ div.loading {
   height: 100%;
   background-color: #ffffff;
   z-index: 1;
-
   transition: opacity 100ms;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 div.loading.hidden {
   opacity: 0;
@@ -55,7 +47,6 @@ main {
 }
 
 /* ========= Text ============ */
-
 h1 {
   font-size: 50px;
 }
@@ -76,7 +67,6 @@ p {
 }
 
 /* ========= NAVIGATION ============ */
-
 nav {
   position: fixed;
   z-index: 1;
@@ -118,7 +108,6 @@ nav a:hover {
   color: #fff;
 }
 
-
 .gif.projekt a img {
   width: 60px;
 }
@@ -130,7 +119,6 @@ nav a:hover {
 }
 
 /* ========= index.html ============ */
-
 .pizzacursor {
   cursor: url(pizzac.cur), default;
 }
@@ -161,14 +149,17 @@ nav a:hover {
   margin-bottom: 15%;
 }
 
-
+.sticky {
+  height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
 
 /* FOOTER ______________________________________________________________________________ */
-
 footer {
   bottom: 0px;
   width: 100%;
-  margin-top: 8em;
   overflow-x: hidden;
 }
 
@@ -220,11 +211,9 @@ footer {
   color: #fff;
 }
 
-
-
 /* ---------information.html----------------------------------- */
 .contact-content {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .contact-content h2 {
@@ -239,9 +228,7 @@ footer {
 }
 
 article {
-  padding-bottom: 4em;
-  margin-right: 35%;
-  margin-top: 10%;
+  max-width: 600px;
 }
 
 figure .portrait {
@@ -249,7 +236,7 @@ figure .portrait {
   width: 25%;
   height: auto;
   top: 70px;
-  right: 196px;
+  right: 96px;
   transform: rotate(-20deg);
   animation: float 6s ease-in-out infinite;
 }
@@ -258,6 +245,11 @@ figure .portrait {
   color: #9358eb;
   text-decoration: underline;
 }
+
+.about-me p span {
+  font-weight: bold;
+}
+
 /* ========= archive ===========_________________________________________________________= */
 .Layout.archive {
   padding: 180px 90px 0 90px;
@@ -332,9 +324,7 @@ figure .portrait {
   align-items: stretch;
 }
 
-
 /* HOVER EFFECT ----------------------------- */
-
 .Projekt {
   transform-style: preserve-3d;
   overflow: hidden;
@@ -372,13 +362,25 @@ figure .portrait {
 .Projekt figure:hover img {
   transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, -20px, 0px);
 }
-/* ---------IMPRESSUM----------------------------------- */
 
+/* ---------IMPRESSUM----------------------------------- */
 .Impressum p {
   margin-bottom: 30px;
 }
 
 /* PROJECT VIEW  _______________________________________ */
+iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .opener {
   width: 100%;
   margin-top: 140px;
@@ -433,10 +435,12 @@ header p span {
   margin: 0;
 }
 
-
-
-#paint{
+#paint {
   background-color: white;
   border-style: none;
 }
-.im-centered { margin: auto; max-width: 800px;}
+
+.im-centered {
+  margin: auto;
+  max-width: 800px;
+}
