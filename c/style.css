@@ -429,11 +429,11 @@ header p span {
 
 /* ------------------------------------------------------------------------------------------------- Komma -----*/
 .project-view figure.view.komma.one {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .project-view figure.view.komma.two {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 /* ------------------------------------------------------------------------------------------------- Sound -----*/
