@@ -116,6 +116,7 @@ nav a:hover {
   padding-left: 90px;
   text-align: left;
   top: 0;
+  z-index: 12;
 }
 
 /* ========= index.html ============ */
@@ -181,7 +182,7 @@ footer {
 .footer-text {
   background-color: #b8d848;
   bottom: 0;
-  padding: 8px 90px 90px 90px;
+  padding: 7px 90px 93px 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -221,10 +222,10 @@ article {
 
 figure .portrait {
   position: absolute;
-  width: 25%;
+  width: 35%;
   height: auto;
-  top: 70px;
-  right: 96px;
+  top: 180px;
+  right: 90px;
   transform: rotate(-20deg);
   animation: float 6s ease-in-out infinite;
 }
@@ -353,18 +354,6 @@ figure .portrait {
 }
 
 /* PROJECT VIEW  _______________________________________ */
-iframe {
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .opener {
   width: 100%;
   margin-top: 140px;
@@ -374,27 +363,107 @@ iframe {
   color: red;
 }
 
-.Projektuebersicht {
-  padding: 0 15% 0 15%;
-  margin: 4em 0;
-}
-
-.Projektuebersicht article {
-  margin-bottom: 6em;
-  margin-top: 0;
-}
-
 header p span {
   color: #9358eb;
 }
 
-.galerie {
-  margin-top: 2em;
+.project-view .view {
+  margin: 0;
+  height: 100vh;
+  padding: 50px 20% 130px 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
-.galerie figure {
-  margin-bottom: 2em;
+.project-view .view.text {
+  padding-top: 38px;
+  display: block;
 }
+
+/* ------------------------------------------------------------------------------------------------- GG -----*/
+.project-view figure.view.one {
+  background-color: #f0f0f0;
+}
+
+.project-view figure.view.two {
+  background-color: #ffcd00;
+}
+
+.project-view figure.view.three {
+  background-color: #ff1b55;
+}
+
+.project-view figure.view.four {
+  background-color: #0055ff;
+}
+
+.project-view figure.view.five {
+  background-color: #f0f0f0;
+}
+
+/* ------------------------------------------------------------------------------------------------- AZM -----*/
+.project-view figure.view.azm.one {
+  background-color: #000000;
+}
+
+.project-view figure.view.azm.two {
+  background-color: #ffffff;
+}
+
+.project-view figure.view.azm.three {
+  background-color: #dfdfe1;
+}
+
+/* ------------------------------------------------------------------------------------------------- Doings -----*/
+.project-view figure.view.doings.one {
+  background-color: #ffffff;
+}
+
+.project-view figure.view.doings.two {
+  background-color: #fe2725;
+}
+
+/* ------------------------------------------------------------------------------------------------- Komma -----*/
+.project-view figure.view.komma.one {
+  background-color: #000000;
+}
+
+.project-view figure.view.komma.two {
+  background-color: #ffffff;
+}
+
+/* ------------------------------------------------------------------------------------------------- Sound -----*/
+.project-view figure.view.sound.one {
+  background-color: #000000;
+}
+
+.project-view figure.view.sound.two {
+  background-color: #ffffff;
+}
+
+/* ------------------------------------------------------------------------------------------------- Sound -----*/
+.project-view figure.view.waben.one {
+  background-color: #94b4b9;
+}
+
+.project-view figure.view.waben.two {
+  background-color: #edece5;
+}
+
+.project-view figure.view.waben.three {
+  background-color: #dc7346;
+}
+
+.project-view figure.view.waben.four {
+  background-color: #e7d093;
+}
+
+
+
 
 .other-projects {
   background-color: #d84848;
@@ -417,14 +486,4 @@ header p span {
 
 .other-projects figure {
   margin: 0;
-}
-
-#paint {
-  background-color: white;
-  border-style: none;
-}
-
-.im-centered {
-  margin: auto;
-  max-width: 800px;
 }
