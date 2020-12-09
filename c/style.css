@@ -476,13 +476,15 @@ header p span {
 
 /* ------------------------------------------------------------------------------------------------- Vegan -----*/
 .project-view figure.view.vegan.one {
-  background-color: #f6cfdb;
+  background-color: #f8d9e2;
 }
 
 .project-view figure.view.vegan.two {
   background-color: #d3da8b;
 }
-
+.project-view figure.view.vegan.three {
+  background-color: #fff5cb;
+}
 
 
 
