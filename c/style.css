@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Inter', 'Public Sans', 'Neue Haas Unica W1G', 'Roboto', Helvetica, Arial, Verdana, sans-serif;
-  font-weight: medium;
+  font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0.2;
   font-size: 16px;
@@ -46,41 +46,46 @@ main {
   transition: opacity 5s;
 }
 
-/* ========= Text ============ */
+/* =======_________________________________________________________________ TEXT ____*/
 h1 {
   font-size: 50px;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 38px;
   margin-bottom: 15px;
+  font-weight: 500;
 }
 
 h3 {
   font-size: 24px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 
 p {
   font-size: 18px;
   margin-bottom: 15px;
+  font-weight: 300;
 }
 
-/* ========= NAVIGATION ============ */
+/* ======_______________________________________________________________ NAVIGATION ______ */
 nav {
   position: fixed;
   z-index: 8;
-  bottom: 0;
+  bottom: -10px;
   background-color: #9358eb;
   align-items: center;
   width: 100%;
 }
 
 .nav-a {
-  padding: 3px 90px;
+  padding: 3px 90px 13px 90px;
   display: flex;
   justify-content: space-between;
-  font-size: 50px;
+  font-size: 38px;
+  font-weight: 500;
 }
 
 nav a {
@@ -102,6 +107,7 @@ nav a:hover {
   position: fixed;
   width: 100%;
   text-align: center;
+  background-color: #fff;
 }
 
 .nav-a .active {
@@ -116,10 +122,9 @@ nav a:hover {
   padding-left: 90px;
   text-align: left;
   top: 0;
-  z-index: 12;
 }
 
-/* ========= index.html ============ */
+/* =====_________________________________________________________________INDEX_______*/
 .pizzacursor {
   cursor: url(pizzac.cur), default;
 }
@@ -137,27 +142,22 @@ nav a:hover {
 }
 
 .Layout .header-start h3 {
-  font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0px 300px 0px;
   cursor: default;
+  font-weight: 500;
 }
 
 .header-start {
   text-align: center;
   width: 100%;
+  height: 100%;
   align-items: center;
   align-self: center;
   margin-top: 50px;
 }
 
-.sticky {
-  height: 100vh;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
 
-/* FOOTER ______________________________________________________________________________ */
+/* ________________________________________________________________________FOOTER ___________________________________________ */
 footer {
   bottom: 0px;
   width: 100%;
@@ -182,7 +182,7 @@ footer {
 .footer-text {
   background-color: #b8d848;
   bottom: 0;
-  padding: 7px 90px 93px 90px;
+  padding: 7px 90px 70px 90px;
   display: flex;
   justify-content: space-between;
 }
@@ -200,9 +200,10 @@ footer {
   color: #fff;
 }
 
-/* ---------information.html----------------------------------- */
+/* -----_______________________________________________________________ABOUT / INFORMATION___________ */
 .contact-content {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
+  display: flex;
 }
 
 .contact-content h2 {
@@ -218,6 +219,7 @@ footer {
 
 article {
   max-width: 600px;
+  margin-bottom: 250px;
 }
 
 figure .portrait {
@@ -236,10 +238,10 @@ figure .portrait {
 }
 
 .about-me p span {
-  font-weight: bold;
+  font-weight: 500;
 }
 
-/* ========= archive ===========_________________________________________________________= */
+/* =======___________________________________________________________________ARCHIV_____________________________= */
 .Layout.archive {
   padding: 180px 90px 0 90px;
 }
@@ -256,7 +258,7 @@ figure .portrait {
   width: 100%;
   padding: 15px 0px;
   font-size: 24px;
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
   transition: all ease 0.5s;
   font-weight: 500;
 }
@@ -266,15 +268,15 @@ figure .portrait {
   align-items: baseline;
   float: right;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .wrap ul li img {
   position: fixed;
-  left: 30%;
-  right: 30%;
-  width: 40%;
-  margin-top: 1em;
+  left: 35%;
+  right: 35%;
+  width: 30%;
+  margin-top: 5px;
   z-index: 9;
   opacity: 0;
   transition: all ease 500ms;
@@ -304,17 +306,17 @@ figure .portrait {
   }
 }
 
-/* ========= PROJEKTE ============ */
+/* ====_________________________________________________________________________ PROJEKTE ___________ */
 .Layout.work {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 40px;
+  grid-column-gap: 20px;
   grid-row-gap: 0px;
   justify-content: center;
   align-items: stretch;
 }
 
-/* HOVER EFFECT ----------------------------- */
+/* ______________________________________________________________________________HOVER EFFECT ----------------------------- */
 .Projekt {
   transform-style: preserve-3d;
   overflow: hidden;
@@ -335,10 +337,6 @@ figure .portrait {
   opacity: 0;
 }
 
-.Projekt figure figcaption p {
-  font-weight: normal;
-}
-
 .Projekt figure:hover figcaption {
   opacity: 1;
   transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, -20px, 0px);
@@ -348,12 +346,12 @@ figure .portrait {
   transform: rotateX(0deg) rotateZ(0deg) translate3d(0px, -20px, 0px);
 }
 
-/* ---------IMPRESSUM----------------------------------- */
+/* ---________________________________________________________________________IMPRESSUM_____________________ */
 .Impressum p {
   margin-bottom: 40px;
 }
 
-/* PROJECT VIEW  _______________________________________ */
+/* ___________________________________________________________________________PROJECT VIEW  _______________________________________ */
 .opener {
   width: 100%;
   margin-top: 140px;
@@ -363,14 +361,19 @@ figure .portrait {
   color: red;
 }
 
+.view.text header {
+  margin-bottom: 40px;
+}
+
 header p span {
   color: #9358eb;
+  font-weight: 500;
 }
 
 .project-view .view {
   margin: 0;
   height: 100vh;
-  padding: 50px 20% 130px 20%;
+  padding: 50px 17% 130px 15%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -424,16 +427,16 @@ header p span {
 }
 
 .project-view figure.view.doings.two {
-  background-color: #fe2725;
+  background-color: #e12222;
 }
 
 /* ------------------------------------------------------------------------------------------------- Komma -----*/
 .project-view figure.view.komma.one {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .project-view figure.view.komma.two {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 /* ------------------------------------------------------------------------------------------------- Sound -----*/
@@ -462,6 +465,24 @@ header p span {
   background-color: #e7d093;
 }
 
+/* ------------------------------------------------------------------------------------------------- Audio -----*/
+.project-view figure.view.audio.one {
+  background-color: #000000;
+}
+
+.project-view figure.view.audio.two {
+  background-color: #ffffff;
+}
+
+/* ------------------------------------------------------------------------------------------------- Vegan -----*/
+.project-view figure.view.vegan.one {
+  background-color: #f6cfdb;
+}
+
+.project-view figure.view.vegan.two {
+  background-color: #d3da8b;
+}
+
 
 
 
@@ -478,10 +499,6 @@ header p span {
 
 .other-projects a:hover {
   color: #ffff;
-}
-
-.other-projects h3 {
-  font-weight: normal;
 }
 
 .other-projects figure {
