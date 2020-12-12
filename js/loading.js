@@ -4,4 +4,4 @@ setTimeout(function () {
 
 setTimeout(function () {
   document.querySelector("div.switch").classList.add("hidden")
-}, 2000)
+}, 3000)
