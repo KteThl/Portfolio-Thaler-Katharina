@@ -11,7 +11,7 @@ body {
   letter-spacing: 0.2;
   font-size: 16px;
   color: #000000;
-  background-color: #000000;
+  background-color: #ffffff;
   hyphens: auto;
   overflow-x: hidden;
   cursor: url('cursor.png'), auto;
@@ -172,13 +172,13 @@ header h3 a span:hover {
 
 /* ________________________________________________________________________FOOTER ___________________________________________ */
 footer {
+  background-color: #b8d848;
   bottom: 0px;
   width: 100%;
   padding-bottom: 70px;
 }
 
 .footer-content {
-  background-color: #b8d848;
   padding: 7px 90px;
   align-items: center;
   color: #000;
