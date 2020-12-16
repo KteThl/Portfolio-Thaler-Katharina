@@ -1,4 +1,4 @@
 all:
 	git add .
-	git commit -m "new push from kte"
+	git commit -m "new push"
 	git push
