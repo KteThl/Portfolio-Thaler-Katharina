@@ -140,6 +140,7 @@ header h3 {
   cursor: default;
   font-weight: 300;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 header h3 a span {
@@ -228,7 +229,7 @@ footer {
 }
 
 article {
-  max-width: 600px;
+  max-width: 550px;
   margin-bottom: 10%;
 }
 
@@ -257,7 +258,7 @@ figure .portrait:hover {
 }
 
 .wrap ul {
-  margin-bottom: 30em;
+  margin-bottom: 500px;
 }
 
 .wrap ul li {
