@@ -1,6 +1,6 @@
-GREEN        := $(shell tput -Txterm setaf 2)
+GREENN        := $(shell tput -Txterm setaf 2)
 WHITE        := $(shell tput -Txterm setaf 7)
-
+GREEN  := $(shell tput -Txterm setaf 4)
 all:
 	@git add .
 	@echo "$(GREEN)I added everything :D$(WHITE)"
