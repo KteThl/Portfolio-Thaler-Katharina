@@ -220,6 +220,7 @@ footer {
 
 .contact-content h2 {
   align-content: center;
+  margin-right: 30px;
   color: #9358eb;
   transition: all ease 300ms;
 }
