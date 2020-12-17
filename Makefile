@@ -7,4 +7,4 @@ all:
 	@git commit -m "new push"
 	@echo "$(GREEN)[LOG] I commited everything :3$(WHITE)"
 	@git push
-	@echo "$(GREEN)[LOG] I pushed everythin... btw you are awesome <3$(WHITE)"
+	@echo "$(GREEN)[LOG] I pushed everything... btw you are awesome <3$(WHITE)"
