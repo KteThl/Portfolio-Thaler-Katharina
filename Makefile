@@ -1,6 +1,6 @@
 all:
 	@git add .
-	@echo "I added everything :D"
+	@echo "\u001b[32m.I added everything :D"
 	@git commit -m "new push"
 	@echo "I commited everything :3"
 	@git push
