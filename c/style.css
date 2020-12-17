@@ -153,7 +153,7 @@ header h3 a span:hover {
 }
 
 .index-img {
-  max-height: 200px;
+  max-height: 250px;
   width: auto;
   animation: float 6s ease-in-out infinite;
   margin-top: 40px;
