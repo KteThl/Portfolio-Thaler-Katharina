@@ -220,7 +220,7 @@ footer {
 
 .contact-content h2 {
   align-content: center;
-  margin-right: 30px;
+  margin-right: 50px;
   color: #9358eb;
   transition: all ease 300ms;
 }
@@ -231,7 +231,7 @@ footer {
 
 article {
   max-width: 550px;
-  margin-bottom: 50px;
+  margin-top: 10px;
 }
 
 figure .portrait {

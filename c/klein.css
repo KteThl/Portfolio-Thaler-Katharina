@@ -92,6 +92,9 @@ footer {
 /* ---------information.html----------------------------------- */
 .contact-content {
   margin-top: 8em;
+}
+
+.contact-content h2 {
   margin-right: 10px;
 }
 
