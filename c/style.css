@@ -231,7 +231,6 @@ footer {
 
 article {
   max-width: 550px;
-  margin-top: 10px;
 }
 
 figure .portrait {
@@ -506,7 +505,7 @@ figure .portrait:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 50px;
 }
 
 .other-projects a {
